@@ -100,4 +100,9 @@ Make sure your house is safe for everyone
 Live in your house!  
 
 6. Maintenance  
-Keep your house alive and up-to-date, to avoid future issues
+Keep your house alive and up-to-date, to avoid future issues  
+  
+## Issues w/ SDLC
+- All requirements have to be known and none of it can change
+- Starting to implementation can take too long, months to years even when everything goes well
+- If requirements change, the timing and budget of the project can change drastically
