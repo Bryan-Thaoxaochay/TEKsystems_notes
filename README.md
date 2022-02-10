@@ -1,11 +1,25 @@
 # Table of Contents
 
 ## Week 1 - Project Management Methodologies + Relational Databases and SQL
-### **Day 1: Monday 2/7** - Project Management Methodologies
+### Project Management Methodologies
 - Software Development Life Cycle
 - Software Testing Life Cycle
-
-### **Day 2: Tuesday 2/8** - Agile Methodologies
 - Agile Principles and Values
 - Scrum Framework
-- Sprints
+- Sprints  
+
+### Relational Databases and SQL
+- SQL
+
+
+## Week 2 - 
+## Week 3 - 
+## Week 4 - 
+## Week 5 - 
+## Week 6 - 
+## Week 7 - 
+## Week 8 - 
+## Week 9 - 
+## Week 10 - 
+## Week 11 - 
+## Week 12 - 
