@@ -1,6 +1,7 @@
 # Scrum
 - framework that aligns w/ the Agile principles  
 Cheat Sheet: https://drive.google.com/file/d/1yK4sPfNwbavFdgUzkKPfVCnZmLdxn2_N/view  
+READ THIS: https://scrumguides.org/scrum-guide.html  
 
 ## 3 Pillars of Scrum
 - Transparency  
@@ -51,6 +52,9 @@ a. around 2-4 weeks
 b. focused around a specific feature
 1. Sprint Planning - selecting user stories from product backlog
 1. Daily Scrum - daily meetings w/ updates
+a. What did you accomplish yesterday?  
+b. What are your plans today?  
+c. Do you have any blockers?  
 1. Sprint Review - demonstrating developed software and seeking product owner's acceptance
 1. Retrospective Meeting - analysis and inspection of the Sprint that just ended  
 
@@ -60,6 +64,7 @@ b. focused around a specific feature
 a. this determines if the tasks are on track to be completed during the sprint  
 - Velocity - sum of story points completed over 1 sprint  
 a. used to determine how many story points to consider in future sprints  
+b. keeping track of velocity allows the team to plan accordingly for future sprints
 
 ### Sprint
 #### Sprint Goal
