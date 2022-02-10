@@ -9,6 +9,7 @@
 - Sprints  
 
 ### Relational Databases and SQL
+- Relational Databases
 - SQL
 
 
