@@ -10,7 +10,7 @@ Purpose: helps us solve the issues of SDLC
 The plan to build an app changes w/ the individuals in the team  
   
 - Working software > Comprehensive documentation  
-?  
+Writing software for the here and now is better than writing the whole documentation for the project, because the documentation might need an update by the time we get to writing the software
   
 - Customer collaboration > Contract negotiation  
 Satisfy the customer needs first and foremost, even if the budget and time needs to change  

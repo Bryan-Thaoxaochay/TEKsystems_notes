@@ -3,15 +3,21 @@
 Cheat Sheet: https://drive.google.com/file/d/1yK4sPfNwbavFdgUzkKPfVCnZmLdxn2_N/view  
 READ THIS: https://scrumguides.org/scrum-guide.html  
 
+## Scrum Theory
+Empiricism - knowledge comes from experience and making decisions based on what is observed  
+Lean Thinking - reduces waste and focuses on the essentials  
+
 ## 3 Pillars of Scrum
 - Transparency  
-Everyone knows what they are doing, have to do, and why  
+Everyone knows what they are doing, what they have to do, and why they have to do it  
 
 - Inspection  
 Checking your work as you do it and determine if anything needs to change for the better  
 
 - Adaptation  
 Being able to change based on the results of the inspection  
+
+*Each pillar leads into the next pillar**
 
 ## Values
 - Focus
@@ -44,17 +50,23 @@ Task - smaller work items that a user story can be broken down into
 - Sprint Backlog: User stories to be worked in a Sprint  
 
 - Increment: Body of work accepted by product owner at the end of a sprint  
-Scrum team and stakeholders have an understanding of when the work is done  
+Definition of Done - the standard an item from the product backlog must meet before adding it to the Increment  
 
 ## Scrum Events
 1. Sprint - a set amount of time given to complete user stories  
 a. around 2-4 weeks  
-b. focused around a specific feature
-1. Sprint Planning - selecting user stories from product backlog
+b. focused around a specific feature  
+
+1. Sprint Planning - selecting user stories from product backlog  
+a. Why is this Sprint valuable?  
+b. What can be Done this Sprint?  
+c. How will the chosen work get done?  
+
 1. Daily Scrum - daily meetings w/ updates
 a. What did you accomplish yesterday?  
 b. What are your plans today?  
 c. Do you have any blockers?  
+
 1. Sprint Review - demonstrating developed software and seeking product owner's acceptance
 1. Retrospective Meeting - analysis and inspection of the Sprint that just ended  
 
