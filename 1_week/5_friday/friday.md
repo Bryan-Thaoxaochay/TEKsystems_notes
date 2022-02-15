@@ -20,7 +20,7 @@ INSERT INTO payments_high SELECT * FROM payments WHERE amount > 2000;
 - this copies data from the payments data and inserts into the payments_high table  
 
 UPDATE
-- UPDATE (table name) SET (value) WHERE (column name = specific value)
+- UPDATE (table name) SET (column name = value) WHERE (column name = specific value)
 - modifies existing data
 - make sure to always include the WHERE clause
 - multiple columns can be updated by using a comma  
