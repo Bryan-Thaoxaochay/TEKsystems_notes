@@ -9,11 +9,22 @@
 - Sprints  
 
 ### Relational Databases and SQL
-- Relational Databases
-- SQL
+- Data Modeling
+- ACID
+- Normalization + Normal Forms
+- Data Query Language
+- Data Modification Language
 
 
-## Week 2 - 
+## Week 2 - SQL
+### SQL
+- Aggregate Functions
+- Data Definition Language
+- Data Integrity
+- Joins
+- Subprograms
+- Subqueries
+
 ## Week 3 - 
 ## Week 4 - 
 ## Week 5 - 
