@@ -36,6 +36,16 @@ TRUNCATE
 - unable to do rollbacks with truncate
 - doesn't take WHERE clause arguments  
 
+START TRANSACTION
+- used to track DML queries
+```
+START TRANSACTION;
+-- DML queries
+[ROLLBACK | COMMIT];
+```
+- ROLLBACK: returns the database back to the previous version
+- COMMIT: keeps the changes to the database and updates it for every user using the database  
+
 ### Data Query Language (DQL)
 SELECT + FROM
 - mandatory keywords  

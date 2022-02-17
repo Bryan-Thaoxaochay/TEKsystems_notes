@@ -15,10 +15,10 @@
 - Data Query Language
 - Data Modification Language
 
-
 ## Week 2 - SQL
 ### SQL
 - Aggregate Functions
+- Operators
 - Data Definition Language
 - Data Integrity
 - Joins

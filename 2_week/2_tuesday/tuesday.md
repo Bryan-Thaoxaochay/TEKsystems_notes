@@ -5,18 +5,20 @@
 - enforced w/ foreign key constraints  
 
 Creating a Foreign Key
-- w/ CREATE TABLE or ALTER TABLE
-- defined at the table level (not on the same line as the column name)
 - foreign keys are not unique
 ```
-CREATE TABLE tableName
-...
-columnId int NOT NULL,
-FOREIGN KEY(columnId)
-  REFERENCES parentTable(id)
-  reference_option: { RESTRICT | CASCADE | SET NULL | NO ACTION | SET DEFAULT }
+// table level
+CREATE TABLE childTable(
+  ...
+  parentId int NOT NULL,
+  constraint fk_child_parent FOREIGN KEY(parentId)
+    REFERENCES parentTable(id)
+    reference_option: { RESTRICT | CASCADE | SET NULL | NO ACTION | SET DEFAULT }
+)
 ```
-- *the table w/ the foreign key is the child table*
+- constraint fk_child_parent: this part is optional, but the rest isn't
+- FOREIGN KEY(column_name): indicates which column is the FK
+- REFERENCES parentTable(column_name): indicates what table is the parentTable and which column on that table
 - reference_option: gives actions when something on the parent table changes  
 a. ON DELETE { RESTRICT | CASCADE | SET NULL | NO ACTION | SET DEFAULT }  
 b. ON UPDATE { RESTRICT | CASCADE | SET NULL | NO ACTION | SET DEFAULT }  
@@ -25,6 +27,19 @@ d. SET NULL - related key fields will be set to null
 e. SET DEFAULT - related key fields will assume the default value  
 f. RESTRICT - exception will be raised  
 g. NO ACTION - nothing on the related table is changed  
+
+### User-Defined Constraints
+Choosing custom constraints for a field
+- enforced w/ CHECK constraint
+```
+CREATE TABLE tableName(
+  ...
+  amount decimal CHECK(amount >= 10.0)
+)
+```
+- amount has to be greater than or equal to 10 in order to get into the db
+- condition can be any SQL boolean expression
+
 
 ## Joining Tables
 - pulling data from 2+ tables  

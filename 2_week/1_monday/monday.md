@@ -145,6 +145,46 @@ CAST(current value AS new datatype)
 SELECT CAST(125 AS CHAR) -> '125';
 ```  
 
+## SQL Operators
+- performed w/ WHERE  
+
+### Logical Operators
+- ALL
+- AND
+- ANY
+- BETWEEN
+- EXISTS
+- IN
+- LIKE
+- NOT
+- OR
+- SOME  
+
+### Arithmetic Operators
+- (+)
+- (-)
+- (*)
+- (/)
+- (%)  
+
+### Bitwise Operators
+- &
+- |
+- ^  
+
+### Comparison Operators
+- =
+- (>)
+- <
+- (>=)
+- <=
+- <> OR !=  
+
+### NULL
+Testing if a column is or isn't null
+- IS NULL
+- IS NOT NULL  
+
 ## Conditional Statements
 Simple CASE
 ```
@@ -158,8 +198,7 @@ SELECT CASE...
 FROM table
 ```  
 
-## Day 1.2 SQL Prez
-### Data Definition Language
+## Data Definition Language
 - queries related to the schema structure
 - create, alter, drop  
 
@@ -219,12 +258,37 @@ DROP TABLE
 ```
 DROP TABLE tableName [restrict | cascade];
 ```
-- restrict cascade?
+- restrict cascade?  
 
-## Day 2.1 SQL Data Integrity and Constraints
-### Data Integrity
-- accuracy, maintenance, and consistency of data stored in a database
-- databases should have good data integrity, by having the data organized and structured consistently  
+### Data Types
+int(size)
+- numbers w/o decimals  
+
+double(size, d)
+- numbers w/ decimals  
+
+decimal(size, d)
+- numbers w/ decimals  
+
+char(size), nchar(size)
+- fixed-length strings  
+
+varchar(size), nvarchar(size)
+- variable-length strings  
+
+date, datetime, timestamp
+- dates  
+
+BLOB
+- binary large object  
+
+null
+- null
+
+## Data Integrity
+**DBs w/ well-chosen constraints is key to maximizing the DBs value**  
+
+- database w/ the right relationships, columns, and constraints for it's data -> **GOOD DATA INTEGRITY**
 
 Integrity enforced by DB in 4 ways
 - entity
@@ -232,17 +296,44 @@ Integrity enforced by DB in 4 ways
 - referential
 - user-defined  
 
-#### Entity
-- each row of the table is a unique entity
-- enforced w/ primary key constraint
-- also enforced w/ unique constraint  
+### Entity
+Each row of the table is a unique entity
+- enforced w/ primary key constraint OR unique constraint
+```
+// field level
+CREATE TABLE tableName(
+  id int PRIMARY KEY AUTO_INCREMENT,
+  name varchar(50) NOT NULL UNIQUE
+)
+
+// table level
+CREATE TABLE tableName(
+  id int,
+  name varchar(50) NOT NULL UNIQUE,
+  constraint pk_table PRIMARY KEY(id)
+)
+```
+- db ensures PK is NOT NULL + UNIQUE
+- AUTO_INCREMENT: generates unique PKs based off the latest one used
+- UNIQUE: makes sure the data entered is completely different from the database data, but NULL is allowed
 
 Unique vs Primary Key
 - Null is allowed for Unique
 - only 1 PK per table
 - multiple unique allowed per table  
 
-#### Domain
-- choosing the right data type for a field
-- NOT NULL constraints: does it make sense for this field to be empty?
-- DEFAULT
+### Domain
+Choosing the right data type for a field  
+
+Constraints to Consider
+- NOT NULL: should this data type ever be empty?
+- DEFAULT: adding a default value if none is entered
+```
+CREATE TABLE tableName(
+  date datetime NOT NULL DEFAULT current_date()
+)
+```  
+### Referential
+Tables have the right relationships between them
+- enforced w/ foreign keys
+```
