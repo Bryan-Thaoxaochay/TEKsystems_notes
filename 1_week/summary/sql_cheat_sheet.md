@@ -155,16 +155,8 @@ https://www.techonthenet.com/mariadb/functions/index.php
 
 ## Joining
 ```
-// INNER JOIN
-...FROM (leftTable) INNER JOIN (rightTable) ON leftTable.column_name = rightTable.column_name 
-
-...FROM (leftTable) INNER JOIN (rightTable) USING (column_name)
-
-// LEFT JOIN
-...FROM (leftTable) LEFT JOIN (rightTable) ON leftTable.column_name = rightTable.column_name
-
-// RIGHT JOIN
-...FROM (leftTable) LEFT JOIN (rightTable) ON leftTable.column_name = rightTable.column_name
+// INNER, LEFT, RIGHT
+...FROM (left table) [INNER JOIN | LEFT JOIN | RIGHT JOIN] (right table) ON (column name) = (column name)
 
 // FULL JOIN
 ...FROM (left table) LEFT JOIN (right table) USING(column_name)
