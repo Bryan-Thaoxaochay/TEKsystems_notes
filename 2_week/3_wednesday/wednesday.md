@@ -41,6 +41,20 @@ a. IN - send values to stored procedures + execute queries (default)
 b. OUT - get values from stored procedures  
 c. INOUT - combo of IN + OUT  
 
+### Triggers
+- set of statements that run when an event occurs on a table
+- helpful to run scheduled tasks
+- events include: inserted, updated, deleted
+- triggers can occur BEFORE or AFTER these events
+```
+CREATE TRIGGER triggerName
+[BEFORE | AFTER] [INSERT | UPDATE | DELETE]
+  ON tableName FOR EACH ROW
+BEGIN
+  -- things to run
+END;
+```
+
 ## Subqueries
 - queries within another query
 - the inner query is executed before the outer query
@@ -82,4 +96,18 @@ HAVING agg_function(column_name) {comparison operator}
 - instead of retrieving from a table already created, we can select data from a 'derived table' via subquery in FROM clause
 ```
 FROM (subquery) AS derivedTableName
+```  
+
+### Correlated Subqueries
+- when the subquery references the table from the outer query
+- because of this, the correlated subquery executes for each row from the outer query -> this leads to poor performance
 ```
+SELECT *
+	FROM products p1
+	WHERE buyprice > (
+		SELECT AVG(buyprice)
+		FROM products
+		WHERE productline = p1.productline
+  );
+```
+- the subquery references p1, which is from the outer query
