@@ -25,6 +25,11 @@
 - Subprograms
 - Subqueries
 
+### Version Control
+- Version Control
+- Git
+- GitHub
+
 ## Week 3 - 
 ## Week 4 - 
 ## Week 5 - 
