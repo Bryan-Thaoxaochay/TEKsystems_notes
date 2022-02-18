@@ -28,7 +28,16 @@
 ### Version Control
 - Version Control
 - Git
-- GitHub
+- GitHub  
+
+### Java
+- Java Development Kit
+- IntelliJ Project Creation
+- Java Program Anatomy
+- Naming Conventions
+- Variables
+- Data Types
+- Operators
 
 ## Week 3 - 
 ## Week 4 - 
