@@ -39,7 +39,17 @@
 - Data Types
 - Operators
 
-## Week 3 - 
+## Week 3 - Java Core Programming
+### Classes
+- Wrapper Classes
+- Math, String, Character Classes
+
+### Conditionals
+- Boolean Operators
+- Operator Precedence
+- if Statement
+- switch case Statement
+
 ## Week 4 - 
 ## Week 5 - 
 ## Week 6 - 
