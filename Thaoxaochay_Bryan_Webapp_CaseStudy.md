@@ -1,41 +1,124 @@
 # Java Web Application w/ Spring Boot
 ## Requirements
-Webserver
+### Webserver
 - Tomcat  
 
-Front-End
-- 1 external CSS stylesheet
-- 6 different pages
-- HTML w/ Thymeleaf
-- 1+ JavaScript script  
+### Front-End
+- CSS  
+a. 1 external CSS stylesheet  
+b. Bootstrap is allowed  
 
-Models + Databases
-- 3+ custom queries
-- MariaDB as database
-- 4+ models w/ tables in relational database
-- Schema diagram of tables
-- Uses Jakarta Persistence API (JPA)
-- 1+ example of each CRUD operation
-- JUnit to test JPA repositories/services  
+- HTML  
+a. 6 different pages  
+b. used w/ Thymeleaf (Java library)
 
-Spring  
-...
+- JavaScript  
+a. 1+ external JavaScript file  
+
+- Navigation section  
+Displayed on multiple pages
+
+*Thymeleaf* - HTML template engine to display data + text dynamically
+
+### Models + Databases
+- DBMS  
+a. use MariaDB  
+b. 4+ tables  
+c. have schema diagram  
+
+- Models  
+a. 4+ models  
+b. 3+ custom queries  
+c. 1+ example of each CRUD operation  
+d. annotated for binding w/ Spring data binding via Jakarta and/or Hibernate validation
+
+- Jakarta Persistence API (JPA)  
+Use directly or via Spring Data JPA  
+
+- Testing  
+a. test each custom query in each repo  
+b. test 1+ method in each service class  
+c. 1+ parameterized test  
+d. 1+ test suite  
+e. use JUnit to unit test JPA repos/services  
+
+- Repos + Service Classes/Interfaces  
+Include these in the project  
+
+*JPA* - allow us to store, access, and manage Java objects in a relational DB  
+*Java Repositories* - new way to store, update, and retrieve data from the backend  
+*Service* - specific function provided by a library
+- interfaces + classes support the service in providing this functionality  
+
+### Spring  
+- use Spring Boot
+- 2+ ways of creating a managed bean/object
+- @Autowired annotation  
+Use correctly for right implementation of dependency injection  
+
+- Spring Security  
+a. 1+ example session management  
+b. Sign up + login functionality  
+
+- Exception Handling  
+Incorporate where necessary in code  
+
+### Custom Exceptions
+- 1+ custom exception created + implemented  
+
+### Naming Conventions
+- Classes: PascalCase
+- Variables, Methods, URLs: camelCase
+- Files: snake_case
+- Packages: lowercase.with.dots + include name and project (i.e. org.bryanthaoxaochay.project)  
+
+### Classes
+- Comments  
+a. describes the class  
+b. describe the methods  
+
+### GitHub
+- README file  
+a. user stories  
+b. technical challenges + how they were resolved  
   
-## Idea 1: Mentorship Web App
+## App Ideas
+### Blog App
 Purpose  
-- Providing a platform for people to find guidance into different career fields, by giving users the ability to share resources, share their career journey and stories, give advice, and communicate with others.  
+- User can post an experience that was difficult and hard for them  
   
-## Idea 2: Park App
+### Park App
 Purpose
 - Be able to find parks through multiple criteria, such as location, amenities, people, etc.  
-  
-## Idea 3: Meme Generator
-Purpose
-- Users can create, update, and delete memes on their accounts, and see memes from other accounts
 
-## Idea 4: Shopping Comparer
-Purpose
-- Compares prices between items at different stores  
+## Chosen App (Blog App: Damn That Was Hard)
+### Frontend
+**User Stories**
+1. As a random user, I want to view past blog posts so that I can read them.
+1. As a random user, I want to sign up for an account so that I can get account features.
+1. As a signed-in user, I want to view past blog posts so that I can comment on them.
+1. As a signed-in user, I want to view my past blog posts so that I can read them.
+1. As a signed-in user, I want to create + post a blog post so that others can interact with it.
+1. As a signed-in user, I want to edit my past blog post so that I can fix errors.
+1. As a signed-in user, I want to edit my past comments so that I can fix errors.
+1. As a signed-in user, I want to delete my past blog posts so that others can't read them.
+1. As a signed-in user, I want to delete my past comments so that others can't read them.
+1. As a signed-in user, I want to save others blog posts so that I can find them faster.
 
-https://www.codewithc.com/library-management-system-java-project/  
-https://www.codewithc.com/online-quiz-system-project-java/  
+**Web Pages**
+1. Home page
+1. Sign-In page
+1. Sign-Up page
+1. Sign-Out page
+1. Create New Blog post page
+1. View My Blog posts page
+1. View Saved Blog Posts page
+
+### Backend
+**Database**
+- Tables  
+a. Users  
+b. BlogPosts  
+c. UserBlogPosts  
+d. SavedBlogPosts  
+e. Comments
