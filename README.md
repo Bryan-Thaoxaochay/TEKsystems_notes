@@ -48,7 +48,24 @@
 - Boolean Operators
 - Operator Precedence
 - if Statement
-- switch case Statement
+- switch case Statement  
+
+### Loops
+- for Loop, do-while Loop, while Loop, enhanced for Loop
+- Loop Control Statements
+
+### Arrays
+- Syntax
+- Methods
+- Copying an Array
+- Multidimensional Arrays
+
+### Object-Oriented Programming
+- General
+- Classes
+- Methods
+- Encapsulation
+- Inheritance
 
 ## Week 4 - 
 ## Week 5 - 
