@@ -21,6 +21,34 @@
 - Array
 - Classes  
 
+## Wrapper Classes
+- gives built-in methods to the primitive data types, since they originally don't have them
+```
+int i = 1;
+Integer ii = 1;
+i.(// no methods appear);
+ii.(// list of methods appear);
+
+(primitive type) -> (wrapper class)
+boolean -> Boolean
+char -> Character
+byte -> Byte
+short -> Short
+int -> Integer
+long -> Long
+float -> Float
+double -> Double
+
+*Auto-Boxing* - primitive value -> wrapper class    
+*Un-Boxing* - wrapper class -> primitive value  
+
+int a = 20;
+Integer autoBoxing = a;
+
+Integer i = 56;
+int unBoxing = i;
+```  
+
 ## Type Casting
 - converting data types  
 
