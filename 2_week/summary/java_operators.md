@@ -1,4 +1,19 @@
 # Java Operators
+
+## Operator Precendence
+- when evaluating a statement, there is an order of execution w/ the operands  
+
+1. Parentheses
+1. Unary Operators
+1. (*) and (/)
+1. (+) and (-)
+1. bitwise operators
+1. logical operators
+1. ternary operators
+1. assignment operators  
+
+*If the operator is the same, all operators but assignment operators are left -> right*
+
 ## Arithmetic
 - addition: +
 - subtraction: -
@@ -24,8 +39,12 @@ s instanceOf Student;
 - return boolean value
 - short circuit  
 
-- AND: &&
-- OR: ||  
+- && AND
+- || OR
+- ! NOT
+- & AND w/o short-circuiting
+- | OR w/o short-circuiting
+- ^ exclusive OR: takes 2 boolean operands and returns true if the operands are different + vv
 
 ## Assignment Operator
 - assign result of operation back to same var  
