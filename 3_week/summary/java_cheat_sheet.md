@@ -136,3 +136,28 @@ int[][][] matrix3d = new int[2][2][2] {
 };
 ```
 - w/ each dimension added, 1 more [] is needed  
+
+## Getter + Setter Methods
+```
+public class Person {
+  private String name;
+
+  // setter method for name
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  // getter method for name
+  public String getName() {
+    return name;
+  }
+}
+```
+
+## Parent + Child Classes
+```
+public class Parent {}
+
+public class Child extends Parent {}
+```
+- extends: keyword to create child class from parent class  
