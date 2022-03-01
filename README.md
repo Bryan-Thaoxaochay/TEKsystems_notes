@@ -67,7 +67,15 @@
 - Encapsulation
 - Inheritance
 
-## Week 4 - 
+## Week 4 - Java Core Programming
+- Exception Handling
+
+### Files
+- File Class
+- Java NIO
+
+
+
 ## Week 5 - 
 ## Week 6 - 
 ## Week 7 - 
