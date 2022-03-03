@@ -72,8 +72,22 @@
 
 ### Files
 - File Class
-- Java NIO
+- Java NIO  
 
+### Collection
+- List
+  - ArrayList
+  - LinkedList
+- Queue
+  - Deque -> LinkedList
+- Set
+  - SortedSet -> TreeSet
+  - HashSet  
+
+### Maps
+- SortedMap
+  - TreeMap
+- HashMap  
 
 
 ## Week 5 - 
