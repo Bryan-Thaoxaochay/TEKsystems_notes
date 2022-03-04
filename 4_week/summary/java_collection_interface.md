@@ -44,9 +44,14 @@ Deque Interface -> LinkedList Class
 
 
 ### **Set Interface**
-- collection of unique element  
+- collection of unique elements  
 
 HashSet Class  
-
+```
+... = new HashSet<>();
+```
 
 SortedSet Interface -> TreeSet Class  
+```
+... = new TreeSet<>();
+```
