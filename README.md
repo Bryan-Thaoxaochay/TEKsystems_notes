@@ -69,12 +69,15 @@
 
 ## Week 4 - Java Core Programming
 - Exception Handling
+- Functional Interfaces
+- Lambda Expressions
+- Concurrency
 
 ### Files
 - File Class
 - Java NIO  
 
-### Collection
+### Collection Interface
 - List
   - ArrayList
   - LinkedList
@@ -84,7 +87,7 @@
   - SortedSet -> TreeSet
   - HashSet  
 
-### Maps
+### Map Interface
 - SortedMap
   - TreeMap
 - HashMap  
