@@ -93,8 +93,29 @@
 - HashMap  
 
 
-## Week 5 - 
-## Week 6 - 
+## Week 5 - Advanced Java Core Programming, JDBC, + ORM (Hibernate)
+### Lambda Expressions
+- Streams
+
+### Java DB Connectivity (JDBC)
+- Prepared Statements
+
+### Maven
+
+### ORM
+- JPA
+- Hibernate
+
+### Hibernate
+- Hibernate Annotations
+- HQL
+- Named Params
+- Named Queries
+
+## Week 6 - ORM (Hibernate), Unit Testing (JUnit)
+- Hibernate Mapping
+- JUnit
+
 ## Week 7 - 
 ## Week 8 - 
 ## Week 9 - 
