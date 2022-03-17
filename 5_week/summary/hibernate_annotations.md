@@ -12,3 +12,7 @@
 | @JoinColumn | Label var as a FK |
 | @NamedQuery | Declaring 1 named query |
 | @NamedQueries | Creating a container for 1+ named queries |
+| @OneToOne | Indicates table will have a FK that points to the PK of another |
+| @OneToMany | Creates a join table w/ the PK of both tables as columns |
+| @ManyToOne | Indicates table will have a FK that points to the PK of another |
+| @ManyToMany | Creates a join table w/ the PK of both tables as columns |  
