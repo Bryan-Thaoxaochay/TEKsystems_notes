@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intro to HTML Practice</title>
+  <style>
+    table {
+      width: 200px;
+      height: 300px;
+      text-align: center;
+      border: 5px solid green;
+    }
+
+    th, td {
+      border: 1px solid red;
+    }
+
+    th {
+      text-align: right;
+    }
+
+    td:hover {
+      background-color: lightcoral;
+      color: white;
+    }
+
+    /* div {
+      margin: 1em;
+    } */
+
+    body {
+      background-color: greenyellow;
+    }
+
+    #userLogin {
+      background-color: white;
+      box-shadow: 10px 5px black;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: auto;
+      padding: 5%;
+      width: min-content;
+    }
+
+    img {
+      border-radius: 50%;
+      margin: auto;
+      width: 250px;
+    }
+
+    #userLoginTitle {
+      color: darkgray;
+      text-align: center;
+    }
+
+    .loginInfo {
+      background-color: lightgray;
+      border: 0;
+      display: block;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: auto;
+      margin-bottom: 1em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      text-align: center;
+      width: 250px;
+    }
+
+    #loginBtn {
+      color: white;
+      background-color: skyblue;
+      border: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      display: block;
+      margin: auto;
+      padding: 1em 2em;
+      text-align: center;
+      width: 250px;
+    }
+
+    #forgotPassword, #passwordLink {
+      color: orange;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: small;
+      padding-top: 2em;
+      text-align: center;
+      text-decoration: none;
+
+    }
+
+  </style>
+</head>
+<body>
+  <form action="#">
+    <fieldset>
+      <legend><h1>Login Page</h1></legend>
+      <div>
+        <label for="email">Email: </label>
+        <input type="text" name="loginEmail" id="loginEmail" placeholder="Enter your email">
+      </div>
+
+      <div>
+        <label for="password">Password: </label>
+        <input type="text" name="loginPassword" id="loginPassword" placeholder="Enter your password">
+      </div>
+
+      <div>
+        <button type="submit" id="loginBtn">Login</button>
+      </div>
+    </fieldset>
+  </form>
+
+  <br>
+
+  <form action="#">
+    <fieldset>
+      <legend><h1>Register Page</h1></legend>
+    <div>
+      <label for="firstName">First Name: </label>
+      <input type="text" name="firstName" id="firstName" placeholder="Enter Your First Name">
+    </div>
+
+    <div>
+      <label for="lastName">Last Name: </label>
+      <input type="text" name="lastName" id="lastName" placeholder="Enter Your Last Name">
+    </div>
+
+    <div>
+      <label for="email">Email: </label>
+      <input type="text" name="registerEmail" id="registerEmail" placeholder="Enter your email">
+    </div>
+
+    <div>
+      <label for="password">Password: </label>
+      <input type="text" name="registerPassword" id="registerPassword" placeholder="Enter your password">
+    </div>
+
+    <div>
+      <label for="confirmPassword">Confirm Password: </label>
+      <input type="text" name="registerConfirmPassword" id="registerConfirmPassword" placeholder="Confirm Your Password">
+    </div>
+
+    <div>
+      <label for="gender">Gender: </label>
+      <input type="radio" name="gender" id="genderFemale"> Female <input type="radio" name="gender" id="genderMale"> Male
+    </div>
+
+    <div>
+      <label for="dob">Date of Birth: </label>
+      <input type="date" name="dob" id="dob" placeholder="mm/dd/yyyy">
+    </div>
+
+    <div>
+      <label for="habits">Habits: </label>
+      <input type="checkbox" name="sportHabit" id="sportHabit"> You like sports <input type="checkbox" name="eatHabit" id="eatHabit"> You like to eat <input type="checkbox" name="sleepHabit" id="sleepHabit"> You like to sleep
+    </div>
+
+    <div>
+      <button type="submit" id="registerBtn">Register</button>
+    </div>
+    </fieldset>
+  </form>
+
+  <br>
+
+  <table>
+    <tr>
+      <th colspan="4">0.00</th>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td>/</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>*</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>00</td>
+      <td>.</td>
+      <td>+</td>
+    </tr>
+    <tr>
+      <td colspan="3">=</td>
+      <td>-</td>
+    </tr>
+  </table>
+
+  <br>
+
+  <form action="" id="userLogin">
+      <img src="data:image/png;base64,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" alt="userImage">
+    <h3 id="userLoginTitle">User Login</h3>
+    <input type="text" placeholder="Username" class="loginInfo">
+    <input type="text" placeholder="Password" class="loginInfo">
+    <button id="loginBtn">LOGIN</button>
+    <p id="forgotPassword">
+      <a href="#" id="passwordLink">Forgot password?</a>
+    </p>
+  </form>
+</body>
+</html>
