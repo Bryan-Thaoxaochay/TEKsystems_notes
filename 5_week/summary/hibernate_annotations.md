@@ -9,5 +9,6 @@
 | @GeneratedValue | Determines how the PK is generated |
 | @Column | Specify details about the var that will be a column |
 | @Basic | Label var as not a column |
-| @JoinColumn | Label var as a FK |  
-
+| @JoinColumn | Label var as a FK |
+| @NamedQuery | Declaring 1 named query |
+| @NamedQueries | Creating a container for 1+ named queries |
