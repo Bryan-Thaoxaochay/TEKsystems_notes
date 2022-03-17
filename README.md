@@ -1,6 +1,8 @@
 # Table of Contents
 
 ## Week 1 - Project Management Methodologies + Relational Databases and SQL
+[Summaries of Week 1](1_week/summary)
+
 ### Project Management Methodologies
 - Software Development Life Cycle
 - Software Testing Life Cycle
@@ -16,6 +18,8 @@
 - Data Modification Language
 
 ## Week 2 - SQL
+[Summaries of Week 2](2_week/summary)
+
 ### SQL
 - Aggregate Functions
 - Operators
@@ -40,6 +44,8 @@
 - Operators
 
 ## Week 3 - Java Core Programming
+[Summaries of Week 3](3_week/summary)
+
 ### Classes
 - Wrapper Classes
 - Math, String, Character Classes
@@ -68,6 +74,8 @@
 - Inheritance
 
 ## Week 4 - Java Core Programming
+[Summaries of Week 4](4_week/summary)
+
 - Exception Handling
 - Functional Interfaces
 - Lambda Expressions
@@ -94,6 +102,8 @@
 
 
 ## Week 5 - Advanced Java Core Programming, JDBC, + ORM (Hibernate)
+[Summaries of Week 5](5_week/summary)
+
 ### Lambda Expressions
 - Streams
 
@@ -113,6 +123,8 @@
 - Named Queries
 
 ## Week 6 - ORM (Hibernate), Unit Testing (JUnit)
+[Summaries of Week 6](6_week/summary)
+
 - Hibernate Mapping
 - JUnit
 
