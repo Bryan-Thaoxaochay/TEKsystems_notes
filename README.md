@@ -122,11 +122,50 @@
 - Named Params
 - Named Queries
 
-## Week 6 - ORM (Hibernate), Unit Testing (JUnit)
+## Week 6 - ORM (Hibernate), Unit Testing (JUnit), HTML, + CSS
 [Summaries of Week 6](6_week/summary)
 
+### Hibernate
 - Hibernate Mapping
-- JUnit
+
+### JUnit
+- General Info
+  - testing exceptions
+  - assert methods
+  - group testing
+- Comparing Models + Arrays
+- Annotations
+- Parameterized Testing
+
+### HTML
+- General Info
+  - Tags
+  - Elements
+  - Block-Level + Inline Elements
+  - Attributes
+- Table
+- Form
+- DOM
+
+### CSS
+- Box Model
+- General Info
+  - Selectors
+  - Properties
+  - Internal + Inline Styling
+  - External Styling
+- CSS Units
+- Important Properties
+  - Display
+  - Position
+  - Color
+  - Background
+  - Border
+  - Text-Align
+  - Float
+  - Object-Fit
+- Transitions
+- Animations
 
 ## Week 7 - 
 ## Week 8 - 
