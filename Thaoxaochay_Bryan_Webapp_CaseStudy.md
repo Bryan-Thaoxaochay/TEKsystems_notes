@@ -145,19 +145,16 @@ b. technical challenges + how they were resolved
   3. Comments
     - id
     - description
-    - flag
     - created at
     - updated at
   4. Questions
     - id
     - question
     - answers
-    - flag
     - created at
     - updated at
   5. Answers
     - id
     - answer
-    - comments
     - created at
     - updated at
