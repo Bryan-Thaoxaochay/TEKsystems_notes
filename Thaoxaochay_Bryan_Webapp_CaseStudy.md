@@ -81,29 +81,33 @@ b. describe the methods
 - README file  
 a. user stories  
 b. technical challenges + how they were resolved  
-  
-## App Ideas
-### Blog App
-Purpose  
-- User can post an experience that was difficult and hard for them  
-  
-### Park App
-Purpose
-- Be able to find parks through multiple criteria, such as location, amenities, people, etc.  
 
 ## Chosen App (Blog App: Damn That Was Hard)
 ### Frontend
 **User Stories**
 1. As a random user, I want to view past blog posts so that I can read them.
 1. As a random user, I want to sign up for an account so that I can get account features.
-1. As a signed-in user, I want to view past blog posts so that I can comment on them.
-1. As a signed-in user, I want to view my past blog posts so that I can read them.
-1. As a signed-in user, I want to create + post a blog post so that others can interact with it.
-1. As a signed-in user, I want to edit my past blog post so that I can fix errors.
-1. As a signed-in user, I want to edit my past comments so that I can fix errors.
-1. As a signed-in user, I want to delete my past blog posts so that others can't read them.
-1. As a signed-in user, I want to delete my past comments so that others can't read them.
-1. As a signed-in user, I want to save others blog posts so that I can find them faster.
+
+2. As a signed-in user, I want to view past blog posts so that I can comment on them.
+3. As a signed-in user, I want to view past blog posts so that I can ask a question.
+4. As a signed-in user, I want to view my past blog posts so that I can read them.
+
+5. As a signed-in user, I want to create a blog post so that others can interact with it.
+6. As a signed-in user, I want to create a comment so that others can interact with it.
+6. As a signed-in user, I want to create a question so that the OP can interact with it.
+7. As a signed-in user, I want to create an answer so that others can see it.
+   
+8. As a signed-in user, I want to edit my past blog post so that I can fix errors.
+9. As a signed-in user, I want to edit my past comments so that I can fix errors.
+10. As a signed-in user, I want to edit my past questions so that I can fix errors.
+11. As a signed-in user, I want to edit my past answers so that I can fix errors.
+   
+12. As a signed-in user, I want to delete my past blog posts so that others can't read them.
+12. As a signed-in user, I want to delete my past comments so that others can't read them.
+13. As a signed-in user, I want to delete my past questions so that others can't read them.
+13. As a signed-in user, I want to delete my past answers so that others can't read them.
+    
+14. As a signed-in user, I want to save other's blog posts so that I can find them faster.
 
 **Web Pages**
 1. Home page
@@ -117,8 +121,43 @@ Purpose
 ### Backend
 **Database**
 - Tables  
-a. Users  
-b. BlogPosts  
-c. UserBlogPosts  
-d. SavedBlogPosts  
-e. Comments
+  1. Users
+    - id
+    - firstName
+    - lastName  
+    - username
+    - email
+    - password
+    - userBlogposts
+    - savedBlogposts
+    - created at
+    - updated at
+  2. BlogPosts
+    - id
+    - topic
+    - title
+    - goal
+    - description
+    - comments
+    - questions
+    - created at
+    - updated at
+  3. Comments
+    - id
+    - description
+    - flag
+    - created at
+    - updated at
+  4. Questions
+    - id
+    - question
+    - answers
+    - flag
+    - created at
+    - updated at
+  5. Answers
+    - id
+    - answer
+    - comments
+    - created at
+    - updated at
