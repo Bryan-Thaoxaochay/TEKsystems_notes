@@ -167,7 +167,13 @@
 - Transitions
 - Animations
 
-## Week 7 - 
+## Week 7 - CSS, JavaScript
+
+### CSS
+- Viewport
+- Media Queries
+- Flex Box
+
 ## Week 8 - 
 ## Week 9 - 
 ## Week 10 - 
