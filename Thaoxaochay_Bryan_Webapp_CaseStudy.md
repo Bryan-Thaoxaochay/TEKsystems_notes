@@ -117,6 +117,7 @@ b. technical challenges + how they were resolved
 1. Create New Blog post page
 1. View My Blog posts page
 1. View Saved Blog Posts page
+2. View Post page
 
 ### Backend
 **Database**
@@ -145,15 +146,10 @@ b. technical challenges + how they were resolved
   3. Comments
     - id
     - description
+    - isQuestion
     - created at
     - updated at
-  4. Questions
-    - id
-    - question
-    - answers
-    - created at
-    - updated at
-  5. Answers
+  4. Answers
     - id
     - answer
     - created at
