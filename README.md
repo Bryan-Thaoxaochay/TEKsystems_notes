@@ -168,11 +168,29 @@
 - Animations
 
 ## Week 7 - CSS, JavaScript
+[Summaries of Week 7](7_week/summary)
 
 ### CSS
 - Viewport
 - Media Queries
 - Flex Box
+- Bootstrap
+
+### JavaScript
+- General Info
+  - Data Types
+  - Variables
+  - Operators
+  - Comments
+- Conditional Statements
+  - if
+  - if/else
+  - if/else if
+  - switch
+- Loops
+  - while
+  - for
+  - do while
 
 ## Week 8 - 
 ## Week 9 - 
