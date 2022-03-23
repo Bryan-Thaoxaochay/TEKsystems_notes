@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Printing Shapes</title>
+  <script>
+    function printBox(width, height) {
+      let widthString = "";
+      for (let i = 0; i < parseInt(width); i++) {
+        widthString += "*";
+      }
+
+      for (let i = 0; i < parseInt(height); i++) {
+        let p = document.createElement("p");
+        p.innerHTML += widthString;
+        document.getElementById("box").appendChild(p);
+      }
+    }
+
+    function printCheckerboard(width, height) {
+      let widthString = "";
+
+      for (let i = 0; i < parseInt(height); i++) {
+        let p = document.createElement("p");
+        let divTag = document.getElementById("checkerboard");
+
+        if (i % 2 === 0) { // Even rows
+          for (let j = 0; j < parseInt(width); j++) { // Create row: *-*-*
+            j % 2 === 0 ? widthString += "*" : widthString += "-";
+          }
+
+          p.innerHTML += widthString;
+          divTag.appendChild(p);
+
+          widthString = "";
+        } else { // Odd rows
+          for (let j = 0; j < parseInt(width); j++) { // Create row: -*-*-
+            j % 2 === 0 ? widthString += "-" : widthString += "*";
+          }
+
+          p.innerHTML += widthString;
+          divTag.appendChild(p);
+
+          widthString = "";
+        }
+      }
+    }
+
+    function printCross(size) {
+      let print = "";
+      let sizeNum = parseInt(size);
+      let frontAsterisk = 0;
+      let backAsterisk = sizeNum - 1;
+
+      for (let i = 0; i < sizeNum; i++) {
+        if (i > 0) {
+          frontAsterisk++;
+          backAsterisk--;
+        }
+
+        for (let j = 0; j < sizeNum; j++) {
+          if (j === frontAsterisk) {
+            print += "*";
+          } else if (j === backAsterisk) {
+            print += "*";
+          } else {
+            print += "-";
+          }
+        }
+
+        
+        let p = document.createElement("p");
+        p.innerHTML += print;
+        document.getElementById("cross").appendChild(p);
+
+        print = "";
+      }
+    }
+  </script>
+</head>
+<body>
+  
+<div id="box"></div>
+
+<div id="checkerboard"></div>
+
+<div id="cross"></div>
+
+<script>
+  let width = prompt("Enter a width (i.e. 7): ");
+  let height = prompt("Enter a height (i.e. 8): ");
+  let size = prompt("Enter a size (i.e. 5): ");
+
+  printBox(width, height);
+  printCheckerboard(width, height);
+  printCross(size);
+</script>
+</body>
+</html>

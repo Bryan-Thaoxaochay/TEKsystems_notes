@@ -1,3 +1,5 @@
+// Tuesday
+
 function balance() {
   let year = 0;
   let balance = 10000
@@ -12,8 +14,6 @@ function balance() {
   document.getElementById('tag').innerHTML += year + ": " + balance;
 }
 
-// balance();
-
 function isPrime(num) {
   let divisibleNums = 0;
 
@@ -27,10 +27,6 @@ function isPrime(num) {
 
   console.log(divisibleNums >= 2 ? "No" : "Yes")
 }
-
-isPrime(29);
-isPrime(97);
-isPrime(35);
 
 function dom() {
   document.getElementById('tag').innerHTML += "hello";
@@ -48,8 +44,6 @@ function separateExpression(expression) {
   console.log(operands);
   console.log(nums);
 }
-
-separateExpression("23+3-3^")
 
 function simpleAlgorithm() {
   let userInput = "";
@@ -72,4 +66,14 @@ function simpleAlgorithm() {
 
 }
 
-simpleAlgorithm();
+// Wednesday
+
+let scope = "global";
+
+function localScope() {
+  let scope = "local"
+  console.log(scope);
+}
+
+localScope();
+console.log(scope);
