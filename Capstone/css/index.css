@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+}
+
+nav h1 a{
+  color: black;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  border: 1px solid black;
+  padding: 1rem;
+  text-decoration: none;
+}
