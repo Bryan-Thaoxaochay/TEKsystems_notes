@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess and Range</title>
+  <script>
+    let input = prompt("Enter a range (in the form 23 34):");
+    let range = input.split(" ");
+    let answer = (Math.floor(Math.random() * (Number(range[1]) - Number(range[0])) + Number(range[0])))
+    let stopper = 1;
+
+    let userGuess = prompt(`Attempt: ${stopper}. Guess a number between ${range[0]} and ${range[1]}`);
+
+    while (stopper <= 3) { // 4 tries
+      if (answer == userGuess) {
+        alert("You got it: " + userGuess);
+        break;
+      } else if (answer > userGuess) { // If the user's guess is less than the answer, update the bottom range
+        let num = parseInt(userGuess) + 1;
+        range[0] = num.toString();
+      } else if (answer < userGuess) { // If the user's guess is greater than the answer, update the top range
+        let num = parseInt(userGuess) - 1;
+        range[1] = num.toString();
+      }
+
+      stopper++;
+      if (range[0] == range[1]) {
+        userGuess = prompt(`Attempt: ${stopper}. There is only 1 number left! ${range[0]}`);
+      } else {
+        userGuess = prompt(`Attempt: ${stopper}. Keep guessing a number between ${range[0]} and ${range[1]}`);
+      }
+    }
+
+    if (answer != userGuess) {
+      alert("Sorry, the answer was " + answer);
+    } else if (answer == userGuess) {
+      alert("You got it: " + userGuess);
+    }
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
