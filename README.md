@@ -209,8 +209,28 @@
     - Curly Braces
   - Properties
     - Accessing Values
+    - Updating Values
     - Adding a Property
     - Deleting a Property
+  - Prototype  
+
+- Arrays
+  - Accessing a Element
+  - Adding a Element
+  - Deleting a Element
+  - Updating a Element
+  - Methods + Properties  
+
+- DOM
+  - General Info
+    - Types of Nodes
+    - Methods to traverse the DOM
+  - CRUD
+    - creating nodes
+    - retrieving nodes
+    - inserting nodes
+    - removing nodes
+    - changing style
 
 ## Week 8 - 
 ## Week 9 - 
