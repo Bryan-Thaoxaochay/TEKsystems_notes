@@ -180,17 +180,37 @@
 - General Info
   - Data Types
   - Variables
+    - Scope
   - Operators
   - Comments
+  - Debugger
+  - Errors
 - Conditional Statements
   - if
-  - if/else
-  - if/else if
+  - if..else
+  - if..else if
   - switch
 - Loops
   - while
   - for
-  - do while
+  - do..while
+  - for..in
+- Functions
+  - Naming Conventions
+  - Syntax
+  - Parameters
+  - Arguments
+  - Invocation
+  - Return Value
+  - Hoisting
+- Objects
+  - Creating Objects
+    - Constructors
+    - Curly Braces
+  - Properties
+    - Accessing Values
+    - Adding a Property
+    - Deleting a Property
 
 ## Week 8 - 
 ## Week 9 - 
