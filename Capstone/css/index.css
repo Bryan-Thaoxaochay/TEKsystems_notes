@@ -56,3 +56,8 @@ footer p {
   margin-bottom: 1rem;
   width: 100%;
 }
+
+footer p a {
+  color: lightgray;
+  text-decoration: none;
+}

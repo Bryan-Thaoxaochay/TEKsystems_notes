@@ -10,3 +10,13 @@ button {
 section p {
   margin: 2rem;
 }
+
+section p a {
+  color: blue;
+  text-decoration: none;
+}
+
+footer {
+  bottom: 0;
+  position: absolute;
+}
