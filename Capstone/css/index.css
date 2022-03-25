@@ -1,3 +1,7 @@
+body {
+  background-color: burlywood;
+}
+
 /* Navbar */
 nav {
   align-items: center;  
@@ -30,6 +34,12 @@ nav ul li a {
   margin: 1rem;
   padding: 1rem;
   text-decoration: none;
+}
+
+/* header */
+header {
+  margin: 1rem;
+  text-align: center;
 }
 
 /* main */
