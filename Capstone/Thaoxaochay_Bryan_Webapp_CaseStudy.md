@@ -1,4 +1,6 @@
 # Java Web Application w/ Spring Boot
+[Rubric](https://docs.google.com/document/d/1VFThg7K-m2AI4gybVy5WVooqddb_P7kvQzjCXmYI7SA/edit)
+
 ## Requirements
 ### Webserver
 - Tomcat  
