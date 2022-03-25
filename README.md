@@ -232,6 +232,12 @@
     - removing nodes
     - changing style
 
+- Events
+  - Event Handlers
+  - Mouse Events
+  - Form Events
+  - Keyboard Events
+
 ## Week 8 - 
 ## Week 9 - 
 ## Week 10 - 
