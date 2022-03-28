@@ -5,8 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Damn That Was Hard</title>
+
   <link rel="stylesheet" href="../css/index.css">
   <link rel="stylesheet" href="../css/sign-up.css">
+
+  <script src="../js/sign-up.js" defer></script>
 </head>
 <body>
   <nav>
@@ -22,19 +25,19 @@
   </nav>
 
   <main>
-    <form action="submit">
+    <form action="submit" name="signUpForm" id="signUpForm">
       <h2>Create an Account</h2>
       <fieldset>
         <legend>Fill in the info below</legend>
-        <label for="">First Name: <input type="text" placeholder="Enter your first name"></label>
+        <label for="">First Name: <input type="text" name="firstName" id="firstName" placeholder="Enter your first name"></label>
 
-        <label for="">Last Name: <input type="text" placeholder="Enter your last name"></label>
+        <label for="">Last Name: <input type="text" name="lastName" id="lastName" placeholder="Enter your last name"></label>
 
-        <label for="">Email: <input type="text" placeholder="Enter your email"></label>
+        <label for="">Email: <input type="text" name="email" id="email" placeholder="Enter your email"></label>
 
-        <label for="">Password: <input type="text" placeholder="Enter your password"></label>
+        <label for="">Password: <input type="text" name="password" id="password" placeholder="Enter your password"></label>
         
-        <label for="">Username: <input type="text" placeholder="Enter your username"></label>
+        <label for="">Username: <input type="text" name="username" id="username" placeholder="Enter your username"></label>
 
         <button type="submit">Sign Up</button>
       </fieldset>
