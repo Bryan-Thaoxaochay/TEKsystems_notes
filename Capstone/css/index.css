@@ -14,18 +14,19 @@ main {
 
 main section {
   align-items: center;
+  background-image: linear-gradient(to top left, orange, black);
   color: white;
   display: flex;
   flex-direction: column;
   height: 20rem;
   justify-content: center;
   margin: 0%;
-  width: 55%;
+  width: 50%;
 }
 
-main section a {
+main section > a {
   background-color: orange;
-  color: white;
+  color: black;
   display: block;
   padding: 1rem;
   text-decoration: none;
@@ -35,25 +36,27 @@ main pre {
   color: white;
   height: 20rem;
   margin: 0;
-  width: 55%;
+  width: 50%;
 }
 
 main img {
   height: 20rem;
-  width: 45%;
+  width: 50%;
 }
 
-main div {
+.bottomSection {
+  background-image: linear-gradient(to top left, black, orange);
   height: 20rem;
-  width: 45%;
+  width: 50%;
 }
 
 main section p {
-  color: orange;
+  color: white;
 }
 
 main section p a {
-  background-color: black;
+  color: rgb(98, 197, 230);
   display: inline;
   padding: 0;
+  text-decoration: none;
 }
