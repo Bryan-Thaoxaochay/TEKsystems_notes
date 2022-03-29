@@ -54,6 +54,10 @@ footer {
   text-align: center;
 }
 
+#indexFooter {
+  margin-top: 9.5rem;
+}
+
 footer h2 {
   margin: 1rem;
   width: 100%;
