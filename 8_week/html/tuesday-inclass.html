@@ -1,0 +1,62 @@
+<html>
+<head>
+  <link rel="stylesheet" href="../css/tuesday-inclass.css">
+  <script src="../javascript/tuesday-inclass.js" defer></script>
+</head>
+
+<body>
+
+  <h2>Exercise Requirements</h2>
+
+  <ul>
+      <li>Create Account or User Registration Form</li>
+      <li>First Name, Last Name, Email Address, Password, Confirm Password</li>
+      <li>Submit button that when submits executes a validate function.</li>
+      <li>Validation function can be done as an onsubmit in the form tag or by adding an event listener</li>
+      <li>Recommendation is using Bootstrap and jQuery but not required</li>
+      <li>When the user corrects their input mistakes, remove any of the error formatting and border color</li>
+  </ul>
+
+  <h2>Validation Requirements</h2>
+  <ul>
+      <li>All fields are required.  Do not use the required attribute on the HTML tag as we want to do with JavaScript</li>
+      <li>First name field should not contain a space.   Bonus : Achieve this with a regex in javascript</li>
+      <li>Optional : find a prebuilt regex on the internet and use it to validate the email address is proper.</li>
+      <li>Password and Confirm password are both required and must be the same.  This is 2 different error messages</li>
+      <li>Password must contain a min of 8 characters and a max of 20 characters.</li>
+      <li>Password must contain a letter and a number</li>
+      <li>If all validates properly show an alert that says something nice.</li>
+  </ul>
+
+  <h2>Error Messages</h2>
+  <ul>
+      <li>Each field that has an error, use CSS to make the border of the input box red</li>
+      <li>Under each input box, create / insert HTML / CSS to show an error message of what is wrong with the input</li>
+      <li>Error messages should be red and maybe a slightly smaller font</li>
+      <li>Try to make the message properly left aligned with the input box. (optional)</li>
+      <li>Extreme Stretch : execute the password validation check on each key press and alter the error messages as the
+          password is being typed.</li>
+  </ul>
+
+  <main>
+    <form action="./tuesday-inclass.html" name="signUpForm" id="signUpForm">
+      <h2>Create an Account</h2>
+      <fieldset>
+        <legend>Fill in the info below</legend>
+        <label for="signUpForm" id="firstNameLabel">First Name: <input type="text" name="firstName" id="firstName" placeholder="Enter your first name"></label>
+
+        <label for="signUpForm" id="lastNameLabel">Last Name: <input type="text" name="lastName" id="lastName" placeholder="Enter your last name"></label>
+
+        <label for="signUpForm" id="emailLabel">Email: <input type="text" name="email" id="email" placeholder="Enter your email"></label>
+
+        <label for="signUpForm" id="passwordLabel">Password: <input type="text" name="password" id="password" placeholder="Enter your password"></label>
+
+        <label for="signUpForm" id="confirmPasswordLabel">Confirm Password: <input type="text" name="passwordConfirmation" id="passwordConfirmation" placeholder="Confirm your password"></label>
+        
+        <button type="submit">Sign Up</button>
+      </fieldset>
+    </form>
+  </main>
+</body>
+
+</html>
