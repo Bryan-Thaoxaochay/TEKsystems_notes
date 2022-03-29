@@ -1,5 +1,11 @@
+body {
+  background-image: linear-gradient(orange, orange);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 /* main */
 main {
+  /* color: white; */
   margin: 2rem;
 }
 
