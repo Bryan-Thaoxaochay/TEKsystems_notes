@@ -1,0 +1,8 @@
+/* main */
+main {
+  margin: 2rem;
+}
+
+main h2, main h3 {
+  font-weight: 100;
+}
