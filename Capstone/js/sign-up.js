@@ -6,13 +6,14 @@ function validate(e) {
   let firstName = validateFirstName();
   let lastName = validateLastName();
   let email = validateEmail();
-  // let password = "";
-  // let confirm = false;
+  let password = validatePassword();
+  let confirm = confirmPassword(password);
 
-  if (firstName && lastName && email) {
+  if (firstName && lastName && email && password && confirm) {
     alert("First Name: " + firstName + 
           "\nLast Name: " + lastName +
-          "\nEmail: " + email 
+          "\nEmail: " + email +
+          "\nPassword: " + password
     );
   }
 }
@@ -88,39 +89,28 @@ function validateEmail() {
 function validatePassword() {
   let passwordTag = document.getElementById("passwordLabel");
   let pTag = document.createElement("p");
-
   let passwordText = document.signUpForm.password.value;
-
   let passwordRegex = new RegExp("(?=.*?[a-zA-z])(?=.*?[0-9])");
 
+  passwordTag.appendChild(pTag);
+  pTag.style.color = "red";
+
   if (passwordText == "") {
-    document.signUpForm.password.focus();
-    passwordTag.appendChild(pTag);
     pTag.innerHTML = "Password cannot be empty";
-    pTag.style.color = "red";
-
     return false;
+
   } else if (passwordText.includes(" ")) {
-    document.signUpForm.password.focus();
-    passwordTag.appendChild(pTag);
-    pTag.innerHTML = "No spaces allowed";
-    pTag.style.color = "red";
-    
+    pTag.innerHTML = "No spaces allowed";    
     return false;
-  } else if (passwordText.length < 8 || passwordText.length > 20) {
-    document.signUpForm.password.focus();
-    passwordTag.appendChild(pTag);
-    pTag.innerHTML = "Password must be between 8-20 characters";
-    pTag.style.color = "red";
-    
-    return false;
-  } else if (!passwordRegex.test(passwordText)) {
-    document.signUpForm.password.focus();
-    passwordTag.appendChild(pTag);
-    pTag.innerHTML = "Password must contain a letter and a number";
-    pTag.style.color = "red";
 
+  } else if (passwordText.length < 8 || passwordText.length > 20) {
+    pTag.innerHTML = "Password must be between 8-20 characters";    
     return false;
+
+  } else if (!passwordRegex.test(passwordText)) {
+    pTag.innerHTML = "Password must contain a letter and a number";
+    return false;
+
   } else {
     return passwordText;
   }
@@ -129,16 +119,15 @@ function validatePassword() {
 function confirmPassword(password) {
   let confirmTag = document.getElementById("confirmPasswordLabel");
   let pTag = document.createElement("p");
-
   let confirmText = document.signUpForm.passwordConfirmation.value;
 
-  if (confirmText !== password) {
-    document.signUpForm.passwordConfirmation.focus();
-    confirmTag.appendChild(pTag);
-    pTag.innerHTML = "Doesn't match password";
-    pTag.style.color = "red";
+  confirmTag.appendChild(pTag);
+  pTag.style.color = "red";
 
+  if (confirmText !== password) {
+    pTag.innerHTML = "Doesn't match password";
     return false;
+
   } else {
     return true;
   }
