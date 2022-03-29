@@ -1,3 +1,6 @@
+let signUpForm = document.getElementById("signUpForm");
+signUpForm.addEventListener("submit", validate);
+
 function validate() {
   let firstName;
   let lastName;
@@ -48,6 +51,3 @@ function validate() {
   console.log(firstName, lastName, email, password, username);
   return true;
 }
-
-let signUpForm = document.getElementById("signUpForm");
-signUpForm.addEventListener("submit", validate());
