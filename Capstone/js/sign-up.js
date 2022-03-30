@@ -8,12 +8,14 @@ function validate(e) {
   let email = validateEmail();
   let password = validatePassword();
   let confirm = confirmPassword(password);
+  let username = validateUsername();
 
-  if (firstName && lastName && email && password && confirm) {
+  if (firstName && lastName && email && password && confirm && username) {
     alert("First Name: " + firstName + 
           "\nLast Name: " + lastName +
           "\nEmail: " + email +
-          "\nPassword: " + password
+          "\nPassword: " + password +
+          "\nUsername: " + username
     );
   }
 }
@@ -130,5 +132,21 @@ function confirmPassword(password) {
 
   } else {
     return true;
+  }
+}
+
+function validateUsername() {
+  let usernameTag = document.getElementById("usernameLabel");
+  let pTag = document.createElement("p");
+  let usernameText = document.signUpForm.username.value;
+
+  usernameTag.appendChild(pTag);
+  pTag.style.color = "red";
+
+  if (usernameText == "") {
+    pTag.innerHTML = "Username can't be empty";
+    return false;
+  } else {
+    return usernameText;
   }
 }
