@@ -32,13 +32,6 @@ main section > a {
   text-decoration: none;
 }
 
-main pre {
-  color: white;
-  height: 20rem;
-  margin: 0;
-  width: 50%;
-}
-
 main img {
   height: 20rem;
   width: 50%;
