@@ -20,6 +20,15 @@
 
     img {
       display: block;
+      margin-bottom: 1rem;
+    }
+
+    header {
+      margin-bottom: 2rem;
+    }
+
+    header > label {
+      display: inline-block;
       margin: auto;
     }
   </style>
@@ -37,8 +46,20 @@
     </ul>
   </nav>
 
-  <main>
+  <header>
     <img src="https://media4.giphy.com/media/l1J9urAfGd3grKV6E/giphy.gif" alt="minions-welcome-back">
+    <label for="dayFeeling">How is your day?</label>
+    <select name="dayFeeling" id="dayFeeling">
+      <option value="--choose a feeling--">--choose a feeling--</option>
+      <option value="amazing">AMAZING!</option>
+      <option value="great">Great</option>
+      <option value="decent">decent</option>
+      <option value="could be better">could be better</option>
+      <option value="today isn't the day">today isn't the day</option>
+    </select>
+  </header>
+
+  <main>
     <form action="">
       <table>
         <tr>
