@@ -3,11 +3,11 @@
 
 ## Requirements
 ### Webserver
-- Tomcat  
+- Tomcat - **DONE**
 
 ### Front-End
 - CSS  
-a. 1 external CSS stylesheet  
+a. 1 external CSS stylesheet - **DONE**
 b. Bootstrap is allowed  
 
 - HTML  
@@ -17,16 +17,16 @@ b. used w/ Thymeleaf (Java library)
 - JavaScript  
 a. 1+ external JavaScript file  
 
-- Navigation section  
+- Navigation section - **DONE**  
 Displayed on multiple pages
 
 *Thymeleaf* - HTML template engine to display data + text dynamically
 
 ### Models + Databases
 - DBMS  
-a. use MariaDB  
-b. 4+ tables  
-c. have schema diagram  
+a. use MariaDB - **DONE**  
+b. 4+ tables - **DONE**  
+c. have schema diagram - **DONE**  
 
 - Models  
 a. 4+ models  
@@ -54,8 +54,8 @@ Include these in the project
 
 ### Spring  
 - use Spring Boot
-- 2+ ways of creating a managed bean/object
-- @Autowired annotation  
+- 2+ ways of creating a managed bean/object - **DONE**  
+- @Autowired annotation - **DONE**  
 Use correctly for right implementation of dependency injection  
 
 - Spring Security  
@@ -87,14 +87,14 @@ b. technical challenges + how they were resolved
 ## Chosen App (Blog App: Damn That Was Hard)
 ### Frontend
 **Web Pages**
-1. Home page
-1. Sign-In page
-1. Sign-Up page
+1. Home page - **DONE**  
+1. Sign-In page - **DONE**  
+1. Sign-Up page - **DONE**  
 1. Sign-Out page
-1. Create New Blog post page
+1. Create New Blog post page - **DONE**  
 1. View My Blog posts page
 1. View Saved Blog Posts page
-2. View Post page
+2. View Post page - **DONE**  
 
 ### Backend
 **Database**
@@ -106,28 +106,23 @@ b. technical challenges + how they were resolved
     - username
     - email
     - password
-    - userBlogposts
-    - savedBlogposts
     - created at
     - updated at
-  2. BlogPosts
+  2. Blogposts
     - id
     - topic
     - title
-    - goal
     - description
-    - comments
-    - questions
+    - user id
     - created at
     - updated at
   3. Comments
     - id
-    - description
-    - isQuestion
+    - comment
+    - blogpost id
     - created at
     - updated at
-  4. Answers
+  4. Users_Blogposts
     - id
-    - answer
-    - created at
-    - updated at
+    - user_id
+    - blogpost_id
