@@ -15,10 +15,10 @@
 
 ### Updating
 1. As a signed-in user, I want to edit my past blog post so that I can fix errors. - NEED USER AUTH TO VIEW USER'S POSTS
-2. As a signed-in user, I want to edit my past comments so that I can fix errors. - NEED TO ADD FEATURE TO CREATE COMMENT
+2. As a signed-in user, I want to edit my past comments so that I can fix errors. - NEED USER AUTH TO CONNECT COMMENTS W/ USERS
    
 ### Deleting
 1. As a signed-in user, I want to delete my past blog posts so that others can't read them. - NEED USER AUTH TO VIEW USER'S POSTS
-2. As a signed-in user, I want to delete my past comments so that others can't read them. - NEED TO ADD FEATURE TO CREATE COMMENT
+2. As a signed-in user, I want to delete my past comments so that others can't read them. - NEED USER AUTH TO CONNECT COMMENTS W/ USERS
 
 3/11
