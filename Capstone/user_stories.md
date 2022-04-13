@@ -6,7 +6,7 @@
 ## Signed-In User
 ### Reading
 1. As a signed-in user, I want to view past blog posts so that I can comment on them. - **DONE**
-2. As a signed-in user, I want to view my past blog posts so that I can read them. - NEED USER AUTH TO LINK POST W/ USER ID
+2. As a signed-in user, I want to view my past blog posts so that I can read them. - **DONE**  
 
 ### Creating
 1. As a signed-in user, I want to create a blog post so that others can interact with it. - **DONE**
