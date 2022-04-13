@@ -14,11 +14,11 @@
 3. As a signed-in user, I want to save other's blog posts so that I can find them faster. - NEED USER AUTH TO LINK SAVED POST W/ USER ID
 
 ### Updating
-1. As a signed-in user, I want to edit my past blog post so that I can fix errors. - NEED USER AUTH TO VIEW USER'S POSTS
+1. As a signed-in user, I want to edit my past blog post so that I can fix errors. - **DONE**
 2. As a signed-in user, I want to edit my past comments so that I can fix errors. - NEED USER AUTH TO CONNECT COMMENTS W/ USERS
    
 ### Deleting
 1. As a signed-in user, I want to delete my past blog posts so that others can't read them. - NEED USER AUTH TO VIEW USER'S POSTS
 2. As a signed-in user, I want to delete my past comments so that others can't read them. - NEED USER AUTH TO CONNECT COMMENTS W/ USERS
 
-5/11
+7/11
