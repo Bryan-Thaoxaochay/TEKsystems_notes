@@ -1,20 +1,19 @@
 # Rubric
 ## Spring MVC/Spring Boot 25% (8.75%)
 1. Session Management
-2. Annotation-based Controller
+2. Annotation-based Controller - DONE
 3. Exception Handling
 4. Input Field Validation
 5. Models and Attributes
-6. Use of JSP or Thymeleaf
-7. Use of Spring Data JPA
-8. Use of Spring Security
-9. Use of logging
-10. Use of web services
+6. Use of JSP or Thymeleaf - DONE
+7. Use of Spring Data JPA - DONE
+8. Use of Spring Security - DONE
+9. Use of logging  
 
 ## Core Java 25% (8.75%)
-1. Models - Java classes that represent the db as an object-oriented model
+1. Models - Java classes that represent the db as an object-oriented model - DONE
   - used to transfer data related to an entity  
-2. Data Access Objects (DAO) - Java classes that have direct access to the db
+2. Data Access Objects (DAO) - Java classes that have direct access to the db - DONE
 3. Custom Exceptions - Java classes that describe an error while app is running
 4. Java classes w/ constant variables
   - requested params
@@ -22,8 +21,8 @@
   - URL patterns
 
 ## JPA 12% (4.2%)
-1. hibernate.cfg.xml?
-2. persistence java class?
+1. application.properties - DONE
+2. Persistence Java Classes - DONE
 
 ## Junit 12% (4.2%)
 1. Test class for every DAO
@@ -43,7 +42,7 @@
 ## Front-End 10% (3.5%)
 1. Use HTML - DONE
 2. Use CSS - DONE
-3. Use JavaScript
+3. Use JavaScript - DONE  
 
 ## Presentation 5% (1.75%)
 1. Business use cases of the presentation
