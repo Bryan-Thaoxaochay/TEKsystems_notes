@@ -1,4 +1,4 @@
-# User Stories
+# MVP User Stories
 ## Random User
 1. As a random user, I want to view past blog posts so that I can read them. - **DONE**
 2. As a random user, I want to sign up for an account so that I can get account features. - **DONE**  
@@ -21,6 +21,7 @@
 ### Deleting
 1. As a signed-in user, I want to delete my past blog posts so that others can't read them. - **DONE**  
 2. As a signed-in user, I want to delete my past comments so that others can't read them. - **DONE**  
-3. As a signed-in user, I want to delete a saved blog post so that it doesn't show up anymore.
+3. As a signed-in user, I want to delete a saved blog post so that it doesn't show up anymore. - **DONE**  
 
-12/13
+# Backlog User Stories
+...
