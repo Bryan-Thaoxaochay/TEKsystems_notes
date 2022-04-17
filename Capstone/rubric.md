@@ -3,8 +3,8 @@
 1. Session Management
 2. Annotation-based Controller - DONE
 3. Exception Handling
-4. Input Field Validation
-5. Models and Attributes
+4. Input Field Validation - DONE  
+5. Models and Attributes - DONE  
 6. Use of JSP or Thymeleaf - DONE
 7. Use of Spring Data JPA - DONE
 8. Use of Spring Security - DONE
