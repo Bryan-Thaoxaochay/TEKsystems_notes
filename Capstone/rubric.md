@@ -20,7 +20,7 @@
   - SQL queries
   - URL patterns
 
-## JPA 12% (4.2%)
+## JPA 12% (4.2%) - DONE
 1. application.properties - DONE
 2. Persistence Java Classes - DONE
 
@@ -34,12 +34,12 @@
 7. Use parameterized classes
 8. Use Java Hamcrest library
 
-## Database 11% (3.85%)
+## Database 11% (3.85%) - DONE
 1. Create physical DB - DONE
 2. Schema Diagram (ERD) - DONE
 3. DDL.sql - DONE  
 
-## Front-End 10% (3.5%)
+## Front-End 10% (3.5%) - DONE
 1. Use HTML - DONE
 2. Use CSS - DONE
 3. Use JavaScript - DONE  
