@@ -1,6 +1,6 @@
 # Rubric
 ## Spring MVC/Spring Boot 25% (8.75%)
-1. Session Management
+1. Session Management - DONE
 2. Annotation-based Controller - DONE
 3. Exception Handling
 4. Input Field Validation - DONE  
